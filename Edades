@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Edades de...</title>
+</head>
+<body>
+	<h3> Diferencia de edades</h3>	
+<h5>¿Cuantos años de diferencia tienes con tu amigo o hermano?</h5> 
+<script>
+		function saltarLinea() {
+			document.write("<br>")
+			
+		}
+		function imprimir(frase){
+			document.write(frase)
+		}
+
+var anho = 2022
+
+imprimir("Juan y su mejor amigo Pablo.");
+saltarLinea();
+saltarLinea();
+imprimir("Juan tiene: "+ (anho-2004)+ " años");
+saltarLinea();
+imprimir("Pablo tiene: "+ (anho-2000)+ " años");
+saltarLinea();
+imprimir("Segun los datos anteriores, Juan y Pablo se llevan "+ (2004-2000)+ " años de diferencia")
+
+
+	</script>
+<br>
+<br>
+</body>
+</html>
