@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Calculo consumo</title>
+</head>
+<body>
+<h3> ¿Alcohol o gasolina?</h3>	
+<h5>Problema 1</h5> Si un carro tiene un tanque de 40 litros. Usando gasolina y consumiendo todo el tanque se hace un camino de 480 kilómetros. ¿Cuál es el consumo de gasolina por kilómetro recorrido?.
+<br>
+<br>
+<script>
+
+	var tanque1 = 40 
+	var camino1 = 480
+	var tanque2 = 40
+	var camino2 = 300
+
+document.write("Cuando está usando gasolina, el consumo por kilometro recorrido es el siguiente... " + camino1/tanque1 + " litro de gasolina por Kilometro recorrido");
+document.write("<br>");
+document.write("<br>");
+
+document.write("<h5>Problema 2</h5> Por otro lado, con el alcohol: el mismo tanque de 40 litros hace un recorrido de 300 kilómetros. ¿Cuál es el consumo de alcohol por kilómetro recorrido?");
+document.write("<br>");
+document.write("<br>");
+
+document.write("Cuando está usando alcohol, el consumo por kilometro recorrido es el siguiente... " + camino2/tanque2 + " litro de alcohol por Kilometro recorrido");
+</script>
+<h6>codigo by Andrey :)</h6>
+</body>
+</html>
